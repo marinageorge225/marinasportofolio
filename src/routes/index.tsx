@@ -1,5 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
-import { Mail, Phone, MapPin, Github, Linkedin, ExternalLink, GraduationCap, Briefcase, Award, Code2 } from "lucide-react";
+import { Mail, Phone, MapPin, Github, Linkedin, ExternalLink, GraduationCap, Briefcase, Award, Code2, Download } from "lucide-react";
+import cvAsset from "@/assets/Marina_George_CV.pdf.asset.json";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -60,7 +61,15 @@ function Portfolio() {
       <section id="top" className="relative overflow-hidden">
         <div className="absolute inset-0 -z-10 opacity-60"
           style={{ background: "radial-gradient(900px 500px at 80% -10%, var(--accent), transparent 60%), radial-gradient(700px 400px at -10% 10%, var(--sand), transparent 70%)" }} />
-        <div className="max-w-6xl mx-auto px-6 pt-24 pb-28">
+        <div className="max-w-6xl mx-auto px-6 pt-20 pb-28">
+          <div className="mb-10 flex justify-center md:justify-start">
+            <div className="relative">
+              <div className="absolute -inset-2 rounded-full bg-gradient-to-br from-accent to-clay opacity-50 blur-xl" />
+              <div className="relative w-36 h-36 md:w-44 md:h-44 rounded-full bg-gradient-to-br from-sand to-clay border-4 border-card shadow-xl flex items-center justify-center overflow-hidden">
+                <span className="font-display text-5xl md:text-6xl text-primary-foreground select-none">MG</span>
+              </div>
+            </div>
+          </div>
           <p className="text-sm uppercase tracking-[0.25em] text-clay mb-6">Software Engineer · Alexandria, Egypt</p>
           <h1 className="font-display text-5xl md:text-7xl lg:text-8xl font-medium leading-[1.02] max-w-4xl">
             Hi, I'm Marina — I build <em className="italic text-clay">warm</em>, user-focused web experiences.
@@ -72,6 +81,9 @@ function Portfolio() {
           <div className="mt-10 flex flex-wrap gap-3">
             <a href="#projects" className="px-6 py-3 rounded-full bg-primary text-primary-foreground hover:opacity-90 transition inline-flex items-center gap-2">
               View my work <ExternalLink className="w-4 h-4" />
+            </a>
+            <a href={cvAsset.url} download="Marina_George_CV.pdf" className="px-6 py-3 rounded-full bg-clay text-primary-foreground hover:opacity-90 transition inline-flex items-center gap-2">
+              <Download className="w-4 h-4" /> Download CV
             </a>
             <a href="https://github.com/marinageorge225" target="_blank" rel="noreferrer" className="px-6 py-3 rounded-full border border-border bg-card hover:bg-secondary transition inline-flex items-center gap-2">
               <Github className="w-4 h-4" /> GitHub
