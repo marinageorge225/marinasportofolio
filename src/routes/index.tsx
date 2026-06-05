@@ -221,6 +221,7 @@ function Portfolio() {
               <li>· GitHub CI/CD — Udemy</li>
               <li>· Java for Beginners — Udemy</li>
               <li>· Frontend Development Diploma — Route Academy</li>
+              <li>· Flutter Development Diploma — Route Academy</li>
             </ul>
           </div>
           <div>
