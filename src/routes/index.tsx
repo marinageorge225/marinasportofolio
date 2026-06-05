@@ -1,5 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
-import { Mail, Phone, MapPin, Github, Linkedin, ExternalLink, GraduationCap, Briefcase, Award, Code2 } from "lucide-react";
+import { Mail, Phone, MapPin, Github, Linkedin, ExternalLink, GraduationCap, Briefcase, Award, Code2, Download } from "lucide-react";
+import cvAsset from "@/assets/Marina_George_CV.pdf.asset.json";
 
 export const Route = createFileRoute("/")({
   head: () => ({
