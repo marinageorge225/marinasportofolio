@@ -1,6 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { Mail, Phone, MapPin, Github, Linkedin, ExternalLink, GraduationCap, Briefcase, Award, Code2, Download } from "lucide-react";
 import cvAsset from "@/assets/Marina_George_CV.pdf.asset.json";
+import marinaPhoto from "@/assets/marina.png.asset.json";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -62,22 +63,24 @@ function Portfolio() {
         <div className="absolute inset-0 -z-10 opacity-60"
           style={{ background: "radial-gradient(900px 500px at 80% -10%, var(--accent), transparent 60%), radial-gradient(700px 400px at -10% 10%, var(--sand), transparent 70%)" }} />
         <div className="max-w-6xl mx-auto px-6 pt-20 pb-28">
-          <div className="mb-10 flex justify-center md:justify-start">
-            <div className="relative">
-              <div className="absolute -inset-2 rounded-full bg-gradient-to-br from-accent to-clay opacity-50 blur-xl" />
-              <div className="relative w-36 h-36 md:w-44 md:h-44 rounded-full bg-gradient-to-br from-sand to-clay border-4 border-card shadow-xl flex items-center justify-center overflow-hidden">
-                <span className="font-display text-5xl md:text-6xl text-primary-foreground select-none">MG</span>
+          <div className="grid md:grid-cols-[1fr_auto] gap-12 items-center">
+            <div>
+              <p className="text-sm uppercase tracking-[0.25em] text-clay mb-6">Software Engineer · Alexandria, Egypt</p>
+              <h1 className="font-display text-5xl md:text-6xl lg:text-7xl font-medium leading-[1.05]">
+                Hi, I'm Marina — I build <em className="italic text-clay">warm</em>, user-focused web experiences.
+              </h1>
+              <p className="mt-8 text-lg md:text-xl text-muted-foreground max-w-2xl leading-relaxed">
+                Recent Artificial Intelligence graduate from Alexandria University, passionate about full-stack development —
+                React, Angular, Next.js, Flutter — and building clean, scalable products.
+              </p>
+            </div>
+            <div className="relative justify-self-center md:justify-self-end order-first md:order-last">
+              <div className="absolute -inset-3 rounded-full bg-gradient-to-br from-accent to-clay opacity-50 blur-2xl" />
+              <div className="relative w-48 h-48 md:w-72 md:h-72 rounded-full border-4 border-card shadow-2xl overflow-hidden">
+                <img src={marinaPhoto.url} alt="Marina George" className="w-full h-full object-cover" />
               </div>
             </div>
           </div>
-          <p className="text-sm uppercase tracking-[0.25em] text-clay mb-6">Software Engineer · Alexandria, Egypt</p>
-          <h1 className="font-display text-5xl md:text-7xl lg:text-8xl font-medium leading-[1.02] max-w-4xl">
-            Hi, I'm Marina — I build <em className="italic text-clay">warm</em>, user-focused web experiences.
-          </h1>
-          <p className="mt-8 text-lg md:text-xl text-muted-foreground max-w-2xl leading-relaxed">
-            Recent Artificial Intelligence graduate from Alexandria University, passionate about full-stack development —
-            React, Angular, Next.js, Flutter — and building clean, scalable products.
-          </p>
           <div className="mt-10 flex flex-wrap gap-3">
             <a href="#projects" className="px-6 py-3 rounded-full bg-primary text-primary-foreground hover:opacity-90 transition inline-flex items-center gap-2">
               View my work <ExternalLink className="w-4 h-4" />
