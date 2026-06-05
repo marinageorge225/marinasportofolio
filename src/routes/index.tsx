@@ -17,10 +17,8 @@ export const Route = createFileRoute("/")({
 
 const experiences = [
   { role: "International Instructor (Freelance)", company: "The Knowledge Academy", period: "May 2026 – Present", bullets: ["Deliver training sessions and workshops for international audiences in technology and software development.", "Adapt content to diverse learning needs across countries and experience levels."] },
-  { role: "Frontend Developer Intern", company: "Route Academy", period: "Jan 2026 – May 2026", bullets: ["Built 4+ responsive web apps with HTML, CSS, JavaScript, React.js and Next.js.", "Created 20+ reusable UI components to improve maintainability.", "Integrated REST APIs into 5+ projects for dynamic data handling."] },
   { role: "Instructor (Kids 6–18)", company: "iSchool", period: "Aug 2025 – Oct 2025", bullets: ["Delivered 40+ project-based lessons across Flutter, Web Dev, AI and Data Science.", "Guided 20+ students per cohort through hands-on coding exercises."] },
   { role: "Java & Python Instructor", company: "Innova Steam — AAST", period: "Jun 2025 – Aug 2025", bullets: ["Taught Java and Python to 15+ students through hands-on sessions.", "Created and delivered 10+ interactive lessons on core programming concepts."] },
-  { role: "Flutter Developer Intern", company: "Route Academy", period: "Sep 2024 – Feb 2025", bullets: ["Built 5+ Flutter apps using MVVM and Clean Architecture.", "Enhanced 4+ apps with API integration and refined UI/UX."] },
 ];
 
 const projects = [
