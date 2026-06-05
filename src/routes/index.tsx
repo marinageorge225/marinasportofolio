@@ -63,7 +63,7 @@ function Portfolio() {
         <div className="absolute inset-0 -z-10 opacity-60"
           style={{ background: "radial-gradient(900px 500px at 80% -10%, var(--accent), transparent 60%), radial-gradient(700px 400px at -10% 10%, var(--sand), transparent 70%)" }} />
         <div className="max-w-6xl mx-auto px-6 pt-20 pb-28">
-          <div className="grid md:grid-cols-[1fr_auto] gap-12 items-center">
+          <div className="grid sm:grid-cols-[1fr_auto] gap-8 sm:gap-12 items-center">
             <div>
               <p className="text-sm uppercase tracking-[0.25em] text-clay mb-6">Software Engineer · Alexandria, Egypt</p>
               <h1 className="font-display text-5xl md:text-6xl lg:text-7xl font-medium leading-[1.05]">
@@ -74,9 +74,9 @@ function Portfolio() {
                 React, Angular, Next.js, Flutter — and building clean, scalable products.
               </p>
             </div>
-            <div className="relative justify-self-center md:justify-self-end order-first md:order-last">
+            <div className="relative justify-self-center sm:justify-self-end order-first sm:order-last">
               <div className="absolute -inset-3 rounded-full bg-gradient-to-br from-accent to-clay opacity-50 blur-2xl" />
-              <div className="relative w-48 h-48 md:w-72 md:h-72 rounded-full border-4 border-card shadow-2xl overflow-hidden">
+              <div className="relative w-40 h-40 sm:w-56 sm:h-56 md:w-72 md:h-72 rounded-full border-4 border-card shadow-2xl overflow-hidden">
                 <img src={marinaPhoto.url} alt="Marina George" className="w-full h-full object-cover" />
               </div>
             </div>
