@@ -222,6 +222,7 @@ function Portfolio() {
               <li>· React Development — Udemy</li>
               <li>· GitHub CI/CD — Udemy</li>
               <li>· Java for Beginners — Udemy</li>
+              <li>· Frontend Development Diploma — Route Academy</li>
             </ul>
           </div>
           <div>
