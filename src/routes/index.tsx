@@ -361,7 +361,7 @@ function Portfolio() {
           <div className="rounded-2xl bg-card border border-border p-8">
             <div className="flex flex-wrap justify-between gap-2 mb-2">
               <h3 className="font-display text-2xl">Information Technology Institute (ITI)</h3>
-              <span className="text-sm text-muted-foreground">Oct 2025 – Aug 2026</span>
+              <span className="text-sm text-muted-foreground">Oct 2025 – Jul 2026</span>
             </div>
             <p className="text-clay">9-Month Diploma — Open-Source Track · MCIT</p>
             <p className="text-muted-foreground mt-2">Alexandria, Egypt</p>
