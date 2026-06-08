@@ -97,6 +97,13 @@ const projects = [
     desc: "Full-featured bakery site with multi-page routing, cart, and order processing on a Node.js REST API.",
     tech: ["React 19", "Vite", "Axios", "Bootstrap 5"],
   },
+  {
+    name: "NutriApp",
+    tag: "Mobile App",
+    desc: "Nutrition tracking mobile app helping users monitor meals, calories and healthy habits on the go.",
+    tech: ["Flutter", "Dart", "Firebase"],
+    link: "https://github.com/marinageorge225/NutriApp",
+  },
 ];
 
 const skills = {
