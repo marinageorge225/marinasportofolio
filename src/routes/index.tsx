@@ -313,7 +313,7 @@ function Portfolio() {
               <div className="flex items-start justify-between mb-3">
                 <span className="text-xs uppercase tracking-wider text-clay">{p.tag}</span>
                 <a
-                  href="https://github.com/marinageorge225"
+                  href={p.link ?? "https://github.com/marinageorge225"}
                   target="_blank"
                   rel="noreferrer"
                   className="opacity-0 group-hover:opacity-100 transition"
