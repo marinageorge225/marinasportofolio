@@ -104,6 +104,13 @@ const projects = [
     tech: ["HTML5", "CSS3", "JavaScript"],
     link: "https://github.com/marinageorge225/NutriApp",
   },
+  {
+    name: "Movie React",
+    tag: "Frontend",
+    desc: "Movies discovery app showing the latest updated movies with ratings, powered by a public movies API.",
+    tech: ["React", "Vite", "Axios", "Tailwind"],
+    link: "https://github.com/marinageorge225/Movie_React",
+  },
 ];
 
 const skills = {
