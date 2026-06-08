@@ -426,6 +426,21 @@ function Portfolio() {
             </ul>
           </div>
         </div>
+        <div className="grid md:grid-cols-2 gap-10 mt-12">
+          <div>
+            <h3 className="font-display text-xl mb-4">Languages</h3>
+            <ul className="space-y-2 text-muted-foreground">
+              <li>· Arabic — Native</li>
+              <li>· English — Advanced (B2)</li>
+            </ul>
+          </div>
+          <div>
+            <h3 className="font-display text-xl mb-4">Volunteer Experience</h3>
+            <ul className="space-y-2 text-muted-foreground">
+              <li>· MEJ (Mouvement Eucharistique des Jeunes) — 8+ years (2018 – Present)</li>
+            </ul>
+          </div>
+        </div>
       </section>
 
       {/* Contact */}
