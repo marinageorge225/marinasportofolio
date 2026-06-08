@@ -62,6 +62,14 @@ const experiences = [
       "Created and delivered 10+ interactive lessons on core programming concepts.",
     ],
   },
+  {
+    role: "Instructor",
+    company: "Ibdaa Academy for Robotics",
+    period: "Jun 2023 – Aug 2024",
+    bullets: [
+      "Taught Arduino, Python, and WeDo robotics to students aged 6–16.",
+    ],
+  },
 ];
 
 const projects = [
@@ -85,15 +93,9 @@ const projects = [
   },
   {
     name: "Bakery React",
-    tag: "Frontend",
-    desc: "Bakery-themed web app showcasing products and brand identity with a clean custom UI.",
-    tech: ["React", "Vite", "CSS"],
-  },
-  {
-    name: "Sip Hub Cafeteria",
     tag: "Full Stack",
-    desc: "Cafeteria management app with auth (Google OAuth, password recovery) and MVC layout.",
-    tech: ["PHP", "MySQL", "MVC"],
+    desc: "Full-featured bakery site with multi-page routing, cart, and order processing on a Node.js REST API.",
+    tech: ["React 19", "Vite", "Axios", "Bootstrap 5"],
   },
 ];
 
@@ -389,12 +391,14 @@ function Portfolio() {
           <div>
             <h3 className="font-display text-xl mb-4">Courses</h3>
             <ul className="space-y-2 text-muted-foreground">
+              <li>· Route Frontend Diploma (React)</li>
+              <li>· Route Mobile Development Diploma (Flutter)</li>
               <li>· MERN Stack Development — Udemy</li>
               <li>· React Development — Udemy</li>
               <li>· GitHub CI/CD — Udemy</li>
               <li>· Java for Beginners — Udemy</li>
-              <li>· Frontend Development Diploma — Route Academy</li>
-              <li>· Flutter Development Diploma — Route Academy</li>
+              <li>· AWS Cloud Fundamentals</li>
+              <li>· Artificial Intelligence — My Communication Center</li>
             </ul>
           </div>
           <div>
