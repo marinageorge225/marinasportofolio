@@ -97,6 +97,13 @@ const projects = [
     desc: "Full-featured bakery site with multi-page routing, cart, and order processing on a Node.js REST API.",
     tech: ["React 19", "Vite", "Axios", "Bootstrap 5"],
   },
+  {
+    name: "NutriApp",
+    tag: "Mobile App",
+    desc: "Nutrition tracking mobile app helping users monitor meals, calories and healthy habits on the go.",
+    tech: ["Flutter", "Dart", "Firebase"],
+    link: "https://github.com/marinageorge225/NutriApp",
+  },
 ];
 
 const skills = {
@@ -306,7 +313,7 @@ function Portfolio() {
               <div className="flex items-start justify-between mb-3">
                 <span className="text-xs uppercase tracking-wider text-clay">{p.tag}</span>
                 <a
-                  href="https://github.com/marinageorge225"
+                  href={p.link ?? "https://github.com/marinageorge225"}
                   target="_blank"
                   rel="noreferrer"
                   className="opacity-0 group-hover:opacity-100 transition"
