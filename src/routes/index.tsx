@@ -99,9 +99,9 @@ const projects = [
   },
   {
     name: "NutriApp",
-    tag: "Mobile App",
-    desc: "Nutrition tracking mobile app helping users monitor meals, calories and healthy habits on the go.",
-    tech: ["Flutter", "Dart", "Firebase"],
+    tag: "Web App",
+    desc: "Nutrition tracking web app helping users monitor meals, calories and healthy habits.",
+    tech: ["HTML5", "CSS3", "JavaScript"],
     link: "https://github.com/marinageorge225/NutriApp",
   },
 ];
