@@ -108,7 +108,7 @@ const projects = [
     name: "Movie React",
     tag: "Frontend",
     desc: "Movies discovery app showing the latest updated movies with ratings, powered by a public movies API.",
-    tech: ["React", "Vite", "Axios", "Tailwind"],
+    tech: ["React 19", "Vite", "Material UI", "Axios", "Framer Motion"],
     link: "https://github.com/marinageorge225/Movie_React",
   },
 ];
